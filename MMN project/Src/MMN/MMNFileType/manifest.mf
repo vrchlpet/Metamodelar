@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.cvut.MMN.core
+OpenIDE-Module-Layer: org/cvut/MMN/core/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/cvut/MMN/core/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

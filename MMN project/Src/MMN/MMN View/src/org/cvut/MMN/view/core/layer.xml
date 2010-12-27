@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-cvut-MMN-view-core-ConViewAction.instance">
+                <attr name="component" methodvalue="org.cvut.MMN.view.core.ConViewTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.cvut.MMN.view.core.Bundle#CTL_ConViewAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+            <file name="org-cvut-MMN-view-core-ShapeViewAction.instance">
+                <attr name="component" methodvalue="org.cvut.MMN.view.core.ShapeViewTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.cvut.MMN.view.core.Bundle#CTL_ShapeViewAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <!--
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="ConViewAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-cvut-MMN-view-core-ConViewAction.instance"/>
+            </file>
+            <file name="ShapeViewAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-cvut-MMN-view-core-ShapeViewAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    -->
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ConViewTopComponent.settings" url="ConViewTopComponentSettings.xml"/>
+            <file name="ShapeViewTopComponent.settings" url="ShapeViewTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="ConViewTopComponent.wstcref" url="ConViewTopComponentWstcref.xml"/>
+                <file name="ShapeViewTopComponent.wstcref" url="ShapeViewTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
